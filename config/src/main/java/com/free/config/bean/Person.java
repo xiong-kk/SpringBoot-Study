@@ -19,7 +19,7 @@ import java.util.Map;
  * @ConfigurationProperties将类中的属性与配置文件中相关的配置进行绑定
  * @PropertySource加载指定路径下的配置文件
  */
-@PropertySource(value = {"classpath:person.properties"})
+//@PropertySource(value = {"classpath:person.properties"})
 @Component
 @ConfigurationProperties(prefix = "person")
 public class Person {
